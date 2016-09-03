@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/menu1">
+    android:id="@+id/menu1">
+    <item android:id="@+id/ca"  android:title="camarade"/>
+
+
+    <item android:id="@+id/am" android:title="Amis">
+        <Menu>
+            <item android:id="@+id/mo" android:title="momo" android:checkable="true"/>
+            <item android:id="@+id/ol" android:title="olive"/>
+        </Menu>
+    </item>
+
+
+    <item android:id="@+id/pr" android:title="prof"/>
+
+
+    <item android:id="@+id/co" android:title="coach">
+        <Menu>
+            <item android:id="@+id/an"  android:title="Ange Bagui"/>
+            <item android:id="@+id/EC" android:title="Expert Comptable" android:titleCondensed="EC"/>
+        </Menu>
+    </item>
+
+</Menu>
