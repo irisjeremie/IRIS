@@ -20,5 +20,4 @@
             <item android:id="@+id/EC" android:title="Expert Comptable" android:titleCondensed="EC"/>
         </Menu>
     </item>
-
 </menu>
